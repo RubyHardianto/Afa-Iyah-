@@ -1,0 +1,48 @@
+using System;
+
+namespace RubyHardianto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Tuliskan Biodatamu");
+
+            // Biodata 1
+            Console.Write("Nama : ");
+            string Nama = Console.ReadLine();
+
+            // Biodata 2
+            Console.Write("Tempat tanggal lahhir : ");
+            string TempatTanggal = Console.ReadLine();
+
+            // Biodata 3
+            Console.Write("Nama Panggilanmu : ");
+            string NamaPanggil = Console.ReadLine();
+
+            // Biodata 4
+            Console.Write("Hobimu : ");
+            string Hobi = Console.ReadLine();
+
+            // Biodata 5
+            Console.Write("Cita - citamu : ");
+            string CitaCita = Console.ReadLine();
+
+            // Baris kosong
+            Console.WriteLine(" ");
+
+            Console.WriteLine("Berikut hasil biodata Mu");
+
+            // Bris kosong
+            Console.WriteLine(" ");
+
+            Console.WriteLine("Namamu adalah                 : " + Nama);
+            Console.WriteLine("Tempat tanggal lahirmu adalah : " + TempatTanggal);
+            Console.WriteLine("Nama Panggilanmu adalah       : " + NamaPanggil);
+            Console.WriteLine("Hobimu adalah                 : " + Hobi);
+            Console.WriteLine("Cita - citamu adalah          : " + CitaCita);
+
+            Console.ReadLine();
+        }
+    }
+}
